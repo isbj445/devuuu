@@ -224,7 +224,7 @@ export default function Hero({ isDark, onOpenResume }: HeroProps) {
               <div className="absolute left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-cyan-400 to-transparent z-20 shadow-[0_0_12px_rgba(34,211,238,0.8)] animate-[bounce_5s_infinite_linear]" />
 
               <img
-                src="/src/assets/images/forensic_hero_1781676218522.jpeg"
+               src={heroImage}
                 alt="Devu Pillai - Forensic Scientist"
                 className="w-full h-full object-cover relative z-10 transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
