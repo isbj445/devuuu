@@ -239,7 +239,7 @@ export default function Hero({ isDark, onOpenResume }: HeroProps) {
               <div className="relative overflow-hidden rounded-xl border border-cyan-500/20 shadow-sm group">
                 <div className="absolute inset-0 bg-cyan-950/30 opacity-0 group-hover:opacity-10 transition-opacity" />
                 <img
-                  src="/src/assets/images/forensic_banner_1781676235238.jpg"
+                 src={heroImage}
                   alt="Forensic Banner"
                   className="w-full h-28 object-cover transition-transform duration-700 group-hover:scale-110"
                   referrerPolicy="no-referrer"
@@ -249,7 +249,7 @@ export default function Hero({ isDark, onOpenResume }: HeroProps) {
               <div className="relative overflow-hidden rounded-xl border border-cyan-500/20 shadow-sm group">
                 <div className="absolute inset-0 bg-cyan-950/30 opacity-0 group-hover:opacity-10 transition-opacity" />
                 <img
-                  src="/src/assets/images/forensic_hero_1781676218522.jpeg"
+                 src={heroImage}
                   alt="Forensic Portrait"
                   className="w-full h-28 object-cover transition-transform duration-700 group-hover:scale-110"
                   referrerPolicy="no-referrer"
