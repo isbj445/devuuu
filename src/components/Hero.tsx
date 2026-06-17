@@ -1,3 +1,5 @@
+import heroImage from "../assets/images/forensic_hero_1781676218522.jpeg";
+import bannerImage from "../assets/images/forensic_banner_1781676235238.jpg";
 import React, { useState, useEffect } from "react";
 import { motion } from "motion/react";
 import { FileText, ArrowRight, ShieldCheck, Microscope, Database, Sparkles } from "lucide-react";
